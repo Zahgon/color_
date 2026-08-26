@@ -1,7 +1,7 @@
 import {expectType} from 'tsd';
 import Color, {
 	type ColorInstance, type ColorJson, type ColorObject,
-} from './index.js';
+} from './dist/index.js';
 
 // String constructor
 expectType<ColorInstance>(Color('rgb(255, 255, 255)'));
